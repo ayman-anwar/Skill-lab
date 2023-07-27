@@ -1,0 +1,99 @@
+/* Home.css */
+
+/* Custom styles for the Carousel */
+.carousel {
+    margin-top: 0px;
+  }
+  
+  .carousel .d-block {
+    max-height: 350px; /* Set the maximum height for the Carousel images */
+    width: auto; /* Preserve the aspect ratio of the images */
+    margin: 0 auto; /* Center the images horizontally */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 40px; /* Adjust the vertical position of the caption */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  .carousel-caption p {
+    font-size: 0.8rem;
+    color: #f7ce3e; /* Custom color for the caption text */
+    margin-bottom: 0px;
+}
+  
+  /* Custom styles for the Cards */
+  .card {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth shadow transition */
+    overflow: hidden; /* Hide the box shadow overflow */
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0); /* Add a shadow on hover */
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  /* Custom styles for the Container */
+  .container {
+    margin-top: 30px;
+    
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+  
+  /* Style the links inside the footer */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the links on hover */
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  

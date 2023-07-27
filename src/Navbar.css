@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+/* Apply custom styles to the navbar */
+.navbar-size {
+    width: 100%;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+    width: 40px; /* Adjust the width of the image */
+    height: 40px; /* Adjust the height of the image */
+  }
+  
+  .navbar-brand:hover {
+    color: #ff0; /* Change the color on hover for the navbar brand */
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s; /* Add a smooth transition effect for color changes */
+  }
+  
+  .nav-link:hover {
+    color: rgb(230, 220, 29); /* Change the color on hover (you can use any color you like) */
+  }
+  
+  /* Add a nice hover effect for the navbar links */
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgb(230, 220, 29); /* Use the same hover color as above */
+    transition: width 0.3s; /* Add a smooth transition effect for the width change */
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  

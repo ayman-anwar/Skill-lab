@@ -1,0 +1,156 @@
+/* About.css */
+
+/* Custom styles for the About Us page container */
+.about-container {
+    padding: 30px;
+  }
+  
+  /* Custom styles for the heading */
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Custom styles for the services section */
+  .services-section {
+    margin-top: 40px;
+  }
+  
+  .services-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .services-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .services-list {
+    list-style-type: disc; /* Add list bullet (circle) */
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  .services-list li {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Custom styles for the accordion */
+  .accordion {
+    margin-top: 20px;
+     /* Custom background color for the bodies */
+  
+  }
+  
+  
+  
+  
+  /* Custom styles for the accordion cards */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Custom styles for the accordion card headers */
+  .card-header {
+    background-color: #f7ce3e; /* Custom background color for the headers */
+    color: #fff; /* Custom text color for the headers */
+    font-weight: bold;
+  }
+  
+  /* Custom styles for the accordion card bodies */
+  .card-body {
+    background-color: #ceb7b74f; /* Custom background color for the bodies */
+    color: #333; /* Custom text color for the bodies */
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Custom styles for the accordion toggle buttons */
+  .accordion-toggle {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .accordion-toggle:hover {
+    color: #000; /* Change the color on hover */
+  }
+  
+  /* Styling for the contact section */
+  .contact-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the contact section with light background theme */
+  .contact-section-light {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the contact heading */
+  .contact-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling for the contact details */
+  .contact-details {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-details li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the paragraphs */
+  p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  .welcome-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Custom styles for the first paragraph */
+  .welcome-paragraph {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* Custom styles for the image */
+  .image {
+    margin-left: 33%;
+    max-width: 1050px;
+    height: 550px;
+  }
